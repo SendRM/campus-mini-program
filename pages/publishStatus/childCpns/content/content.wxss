@@ -1,0 +1,52 @@
+/* pages/publishStatus/childCpns/content/content.wxss */
+textarea {
+  width: 90%;
+  margin: 40rpx auto 0;
+}
+.icon {
+  width: 70rpx;
+  height: 70rpx;
+  bottom: 36rpx;
+  left: 38rpx;
+  background-image: url("data:image/svg+xml;charset=utf-8;base64,PHN2ZyB2aWV3Qm94PScwIDAgMTAyNCAxMDI0JyB2ZXJzaW9uPScxLjEnIHhtbG5zPSdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2Zycgd2lkdGg9JzIwMCcgaGVpZ2h0PScyMDAnPjxwYXRoIGQ9J005MS40Mjg1NzEgNzMxLjQyODU3MWExOC4yODU3MTQgMTguMjg1NzE0IDAgMCAxLTExLjcwMjg1Ny0zMi41NDg1NzFsMjAxLjE0Mjg1Ny0xNjQuNTcxNDI5YTE4LjI4NTcxNCAxOC4yODU3MTQgMCAwIDEgMjMuMDQgMGwxNjkuMzI1NzE1IDEzNS4zMTQyODYgMjA3LjcyNTcxNC0yNDIuODM0Mjg2YTE4LjI4NTcxNCAxOC4yODU3MTQgMCAwIDEgMjUuNi0xLjgyODU3MWwyMzcuNzE0Mjg2IDIwMS4xNDI4NTdhMTguMjg1NzE0IDE4LjI4NTcxNCAwIDAgMS0yMy40MDU3MTUgMjcuNzk0Mjg2bC0yMjMuODE3MTQyLTE4OS40NC0yMDcuNzI1NzE1IDI0Mi40Njg1NzFhMTguMjg1NzE0IDE4LjI4NTcxNCAwIDAgMS0yNS4yMzQyODUgMi4xOTQyODZMMjkyLjU3MTQyOSA1NzEuOTc3MTQzbC0xODkuNDQgMTU1LjQyODU3MWEyMC40OCAyMC40OCAwIDAgMS0xMS43MDI4NTggNC4wMjI4NTd6JyBmaWxsPScjNzA3MDcwJz48L3BhdGg+PHBhdGggZD0nTTkzMi41NzE0MjkgODk2aC04NDEuMTQyODU4QTE4LjI4NTcxNCAxOC4yODU3MTQgMCAwIDEgNzMuMTQyODU3IDg3Ny43MTQyODZWMTQ2LjI4NTcxNGExOC4yODU3MTQgMTguMjg1NzE0IDAgMCAxIDE4LjI4NTcxNC0xOC4yODU3MTRoODQxLjE0Mjg1OGExOC4yODU3MTQgMTguMjg1NzE0IDAgMCAxIDE4LjI4NTcxNCAxOC4yODU3MTR2NzMxLjQyODU3MmExOC4yODU3MTQgMTguMjg1NzE0IDAgMCAxLTE4LjI4NTcxNCAxOC4yODU3MTR6TTEwOS43MTQyODYgODU5LjQyODU3MWg4MDQuNTcxNDI4di02OTQuODU3MTQySDEwOS43MTQyODZ6JyBmaWxsPScjNzA3MDcwJz48L3BhdGg+PHBhdGggZD0nTTQzOC44NTcxNDMgNDU3LjE0Mjg1N2E5MS40Mjg1NzEgOTEuNDI4NTcxIDAgMSAxIDkxLjQyODU3MS05MS40Mjg1NzEgOTEuNDI4NTcxIDkxLjQyODU3MSAwIDAgMS05MS40Mjg1NzEgOTEuNDI4NTcxeiBtMC0xNDYuMjg1NzE0YTU0Ljg1NzE0MyA1NC44NTcxNDMgMCAxIDAgNTQuODU3MTQzIDU0Ljg1NzE0M0E1NC44NTcxNDMgNTQuODU3MTQzIDAgMCAwIDQzOC44NTcxNDMgMzEwLjg1NzE0M3onIGZpbGw9JyM3MDcwNzAnPjwvcGF0aD48L3N2Zz4=");
+}
+.send {
+  color: #317EDB;
+}
+.send {
+  position: absolute;
+  right: 36rpx;
+  bottom: 40rpx;
+  font-size: 42rpx;
+}
+.tool {
+  margin-top: 300rpx;
+}
+.wrap {
+  position: absolute;
+  right: 156rpx;
+  bottom: 36rpx;
+}
+.type {
+  display: inline-block;
+  padding: 12rpx 23rpx;
+  margin: 0 6rpx;
+  background: #fff;
+  color: #606266;
+  text-align: center;
+  line-height: 1;
+  border: 1px solid #dcdfe6;
+  border-radius: 20px;
+}
+.touch {
+  color: #409eff;
+  background: #ecf5ff;
+  border-color: #b3d8ff;
+}
+.disable {
+  color: #c0c4cc;
+  cursor: not-allowed;
+  background-image: none;
+  background-color: #fff;
+  border-color: #ebeef5;
+}

@@ -1,0 +1,4 @@
+<image class="logo"  src="/assets/campus/logo_school.png" mode="aspectFill" />
+<view class="name">
+  <image class="" src="/assets/campus/school_name.png" />
+</view>

@@ -1,0 +1,7 @@
+/* components/icon/icon.wxss */
+rich-text {
+  content: "";
+  position: absolute;
+  background-size: cover;
+}
+

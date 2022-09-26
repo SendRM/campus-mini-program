@@ -1,0 +1,26 @@
+/* pages/profile/childCpns/edit/edit.wxss */
+.nick-name {
+  margin-top: 20rpx;
+}
+.edit {
+  position: relative;
+  width: 300rpx;
+  height: 74rpx;
+  padding-left: 48rpx;
+  border: 1px solid #ccc;
+  font-size: 34rpx;
+  color: #7D7D7D;
+  text-align: center;
+  line-height: 74rpx;
+  border-radius: 40rpx;
+}
+.ed {
+  width: 50rpx;
+  height: 50rpx;
+  left: 54rpx;
+  top: 12rpx;
+  background-image: url("data:image/svg+xml;charset=utf-8;base64,PHN2ZyB2aWV3Qm94PScwIDAgMTAyNCAxMDI0JyB2ZXJzaW9uPScxLjEnIHhtbG5zPSdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2Zycgd2lkdGg9JzIwMCcgaGVpZ2h0PScyMDAnPjxwYXRoIGQ9J003NTcuMjQ4IDg3NC40OTZIMjY2Ljc1MmMtNjAuNDE2IDAtMTA5LjU2OC00OS4xNTItMTA5LjU2OC0xMDkuNTY4VjI1OC41NmMwLTYwLjQxNiA0OS4xNTItMTA5LjU2OCAxMDkuNTY4LTEwOS41NjhoMzg1LjAyNGMxNy40MDggMCAzMS4yMzIgMTMuODI0IDMxLjIzMiAzMS4yMzJzLTEzLjgyNCAzMS4yMzItMzEuMjMyIDMxLjIzMkgyNjYuNzUyYy0yNS42IDAtNDcuMTA0IDIxLjUwNC00Ny4xMDQgNDcuMTA0djUwNi4zNjhjMCAyNS42IDIxLjUwNCA0Ny4xMDQgNDcuMTA0IDQ3LjEwNGg0OTAuNDk2YzI1LjYgMCA0Ny4xMDQtMjEuNTA0IDQ3LjEwNC00Ny4xMDRWMzYxLjk4NGMwLTE3LjQwOCAxMy44MjQtMzEuMjMyIDMxLjIzMi0zMS4yMzJzMzEuMjMyIDEzLjgyNCAzMS4yMzIgMzEuMjMydjQwMy40NTZjMCA2MC40MTYtNDkuMTUyIDEwOS4wNTYtMTA5LjU2OCAxMDkuMDU2eicgZmlsbD0nIzg4ODg4OCc+PC9wYXRoPjxwYXRoIGQ9J001MTIgNTM1LjA0Yy03LjY4IDAtMTUuODcyLTMuMDcyLTIyLjUyOC05LjIxNi0xMi4yODgtMTIuMjg4LTEyLjI4OC0zMi4yNTYgMC00NC4wMzJsMzEwLjI3Mi0zMDkuNzZjMTIuMjg4LTEyLjI4OCAzMi4yNTYtMTIuMjg4IDQ0LjAzMiAwIDEyLjI4OCAxMi4yODggMTIuMjg4IDMyLjI1NiAwIDQ0LjAzMmwtMzEwLjI3MiAzMDkuNzZjLTUuNjMyIDYuNjU2LTEzLjgyNCA5LjIxNi0yMS41MDQgOS4yMTZ6JyBmaWxsPScjODg4ODg4Jz48L3BhdGg+PC9zdmc+");
+}
+.bottom {
+  margin-bottom: 40rpx;
+}

@@ -1,0 +1,16 @@
+<block wx:for="{{complaints}}">
+  <application-item>
+    <text slot="one" class="middle">投诉类型：{{item.complaintType}}</text>
+    <text slot="two" class="middle">投诉饭堂：{{item.complaintCanteen}}</text>
+    <text slot="three" class="middle">电话：{{item.telephone}}</text>
+    <text slot="four" class="middle">投诉原因：{{item.complaintContent}}</text>
+    <block wx:if="{{item.relatedPictures.length > 0}}">
+      <view class="user-img" slot="five" slot="six">
+        <block wx:for="{{item.relatedPictures}}" wx:for-item="path">
+          <image class="" src="{{url}}/{{path}}" />
+        </block>
+      </view>
+    </block>
+  </application-item>
+</block>
+<navigator class="btn" url="/pages/complaint/complaint">创建新申请</navigator>

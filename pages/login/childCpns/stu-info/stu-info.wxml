@@ -1,0 +1,14 @@
+<view class="stu-info">
+  <view class="sno">
+    <input type="number" placeholder="学号" class="stu-id stu-ipt" value="{{inputSno}}" bind:input="getSno"
+      bind:blur="hidden" data-hidden="clearSno" />
+    <ico url="{{clearSno}}" bind:tap="cancel" data-cancel="inputSno" />
+  </view>
+  <view class="pwd">
+    <input type="password" placeholder="密码（初始为身份证后6位）" class="stu-pwd stu-ipt" value="{{inputPwd}}" bind:input="getPwd"
+      bind:blur="hidden" data-hidden="clearPwd" />
+    <ico url="{{clearPwd}}" bind:tap="cancel" data-cancel="inputPwd" />
+  </view>
+</view>
+<button class="login-btn" style="width: 700rpx" open-type="getUserInfo"
+  bind:getuserinfo="login">登录</button>

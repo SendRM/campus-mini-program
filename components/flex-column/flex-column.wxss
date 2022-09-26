@@ -1,0 +1,5 @@
+/* components/flex-column/flex-column.wxss */
+.column {
+  display: flex;
+  flex-direction: column;
+}

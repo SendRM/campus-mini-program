@@ -1,0 +1,4 @@
+<view class="top {{darkModel && 'dark'}}">
+  <slot name="up"></slot>
+  <slot name="down"></slot>
+</view>

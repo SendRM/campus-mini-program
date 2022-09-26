@@ -1,0 +1,19 @@
+.wrap {
+  margin-top: 150rpx;
+  border-top: 20rpx solid #F5F5F5;
+}
+.type {
+  display: inline-block;
+  margin: 10rpx 0 0 38rpx;
+  font-size: 36rpx;
+  font-weight: 700;
+}
+.btn {
+  position: fixed;
+  background-color: #317EDB;
+  left: 33%;
+  bottom: 30rpx;
+  padding: 16rpx;
+  color: white;
+  border-radius: 16rpx;
+}

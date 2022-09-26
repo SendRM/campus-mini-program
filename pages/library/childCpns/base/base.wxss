@@ -1,0 +1,7 @@
+/* pages/library/childCpns/base/base.wxss */
+page {
+  background-color: #ECEDEF;
+}
+view {
+  text-align: center;
+}

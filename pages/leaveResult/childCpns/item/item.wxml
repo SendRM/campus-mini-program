@@ -1,0 +1,14 @@
+<back-home />
+<view class="wrap">
+  <block wx:for="{{leaves}}" wx:key="index">
+    <text class="type">{{item.leaveType}}</text>
+    <application-item>
+      <text slot="one" class="middle">姓名：{{item.applicant}}</text>
+      <text slot="two" class="middle">学号：{{item.sno}}</text>
+      <text slot="three" class="middle">班级：{{item.class}}</text>
+      <text slot="four" class="middle">开始时间：{{item.startTime}}</text>
+      <text slot="five" class="middle">结束时间：{{item.endTime}}</text>
+    </application-item>
+  </block>
+  <navigator class="btn" url="/pages/leave/leave">创建新申请</navigator>
+</view>

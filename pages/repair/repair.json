@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "header": "./childCpns/header/header",
+    "content": "./childCpns/content/content"
+  },
+  "navigationBarBackgroundColor": "#317EDB",
+  "navigationBarTitleText": "智慧后勤",
+  "navigationBarTextStyle": "white"
+}

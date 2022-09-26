@@ -1,0 +1,11 @@
+{
+  "usingComponents": {
+    "base": "./childCpns/base/base",
+    "books": "./childCpns/books/books",
+    "search-result": "./childCpns/search-result/search-result",
+    "book-info": "./childCpns/book-info/book-info",
+    "hunt": "/components/hunt/hunt",
+    "back-home": "/components/back-home/back-home"
+  },
+  "navigationStyle": "custom"
+}

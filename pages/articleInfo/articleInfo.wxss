@@ -1,0 +1,93 @@
+.surface {
+  width: 94%;
+  margin: 0 auto;
+  padding-bottom: 20rpx;
+}
+.user-info {
+  font-size: 32rpx;
+  color: #B2B2B2;
+}
+.belong {
+  padding-left: 20rpx;
+}
+.college {
+  color: #2775E3;
+}
+.content {
+  width: 100%;
+}
+.content text{
+  display: inline-block;
+  margin: 40rpx 0 40rpx 10rpx;
+  padding-left: 10rpx;
+}
+.content image {
+  width: 100%;
+  margin: 0 10rpx;
+  border-radius: 20rpx;
+}
+.user-img {
+  display: flex;
+  flex: 1;
+  width: 100%;
+}
+.user-img image {
+  width: 33.3%;
+  height: 220rpx;
+}
+.wrap {
+  width: 100%;
+  margin: 30rpx auto;
+  padding: 24rpx 0;
+  border-top: 1px solid #eee;
+}
+.info {
+  margin-left: 112rpx;
+}
+.date {
+  margin-top: 20rpx;
+  font-size: 32rpx;
+  color: #bbb;
+}
+.none {
+  display: inline-block;
+  width: 100%;
+  margin-top: 20rpx;
+  padding-top: 20rpx;
+  border-top: 1px solid #eee;
+  color: #bbb;
+  text-align: center;
+}
+.release{
+  font-size: 14px;
+  background-color: #fff;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  box-sizing: border-box;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 5px 0 5px 15px;
+}
+.releaseInput{
+  color: #ccc;
+}
+.release .text{
+  width: 302px;
+  min-height: 17px;
+  max-height: 51px;
+  line-height: 17px;
+  border-width: 7px 10px;
+  border-style: solid;
+  border-color: #fff;
+  background-color: #fff;
+}
+.release .submit{
+  color: #2775E3;
+  width: 58px;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+}

@@ -1,0 +1,6 @@
+/* components/mslot/mslot.wxss */
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin: 16rpx 25rpx;
+}

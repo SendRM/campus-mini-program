@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "usingComponents": {
+    "input-item": "/components/input-item/input-item",
+    "input-content": "/components/input-content/input-content",
+    "upload-picture": "/components/upload-picture/upload-picture"
+  }
+}

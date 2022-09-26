@@ -1,0 +1,31 @@
+/* pages/library/childCpns/search-result/search-result.wxss */
+@import "../../common/common.wxss";
+.books-result {
+  display: flex;
+  margin: 40rpx 0 40rpx -50rpx;
+}
+.wrap {
+  display: flex;
+  flex-direction: column;
+  margin-left: -38rpx;
+}
+.book {
+  width: 340rpx;
+  height: 340rpx;
+  border-radius: 80rpx;
+}
+.title,
+.info {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.info {
+  margin-top: 140rpx;
+}
+.info .txt{
+  text-align: left;
+}
+.off {
+  color: red;
+}

@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "select": "./childCpns/select/select",
+    "content": "./childCpns/content/content"
+  },
+  "navigationBarBackgroundColor": "#317EDB",
+  "navigationBarTitleText": "食品投诉",
+  "navigationBarTextStyle": "white"
+}

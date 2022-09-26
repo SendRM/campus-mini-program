@@ -1,0 +1,30 @@
+/* pages/library/childCpns/book-info/book-info.wxss */
+@import "../../common/common.wxss";
+.wrap image {
+  width: 50%;
+  height: 400rpx;
+  margin: 40rpx 0;
+    box-shadow: 0 7rpx 20rpx rgba(0,0,0,.4);
+}
+.introduction {
+  position: relative;
+}
+.introduction .name {
+  position: absolute;
+  left: 10rpx;
+  top: 0;
+}
+.content {
+  display: inline-block;
+  margin-top: 60rpx;
+  font-size: 32rpx;
+  text-indent: 2em;
+  text-align: left;
+  line-height: 46rpx;
+}
+.off {
+  color: red;
+}
+.column {
+  display: block;
+}

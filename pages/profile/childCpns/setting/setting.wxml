@@ -1,0 +1,46 @@
+<box>
+  <flex-row slot="up">
+    <view slot="left" class="bottom">
+      <text class="info">{{info.commentArticle.length}}</text>
+      <view>评论</view>
+    </view>
+    <view slot="center" class="bottom">
+      <text class="info">{{info.likesArticle.length}}</text>
+      <view>点赞</view>
+    </view>
+    <view slot="right" class="bottom">
+      <text class="info">{{info.dynamicArticle.length}}</text>
+      <view>动态</view>
+    </view>
+  </flex-row>
+  <block wx:for="{{setType}}" wx:key="index" slot="middle">
+    <view class="item">
+      <flex-row>
+        <view class="position" slot="left">
+          <ico url="icon icon{{index}}" />
+        </view>
+        <button size="mini" slot="center" class="center" hover-class="btn-hover" data-index="{{index}}"
+          bind:tap="getSetting" open-type="{{item === '分享软件' && 'share'}}">{{item}}</button>
+        <view class="position" slot="right">
+          <ico url="arrow" />
+        </view>
+      </flex-row>
+    </view>
+  </block>
+  <view class="item" slot="down">
+    <flex-row>
+      <view class="position" slot="left">
+        <ico url="icon3 icon" />
+      </view>
+      <button slot="center" class="center" size="mini" hover-class="btn-hover">夜间模式</button>
+      <view class="position" slot="right">
+        <block wx:if="{{darkModel}}">
+          <ico url="btn night" bind:tap="nightModel" />
+        </block>
+        <block wx:else="{{items}}">
+          <ico url="btn {{night && 'night'}}" bind:tap="nightModel" />
+        </block>
+      </view>
+    </flex-row>
+  </view>
+</box>

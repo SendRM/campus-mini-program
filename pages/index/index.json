@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "swiper": "./childCpns/swiper/swiper",
+    "vajra": "./childCpns/vajra/vajra",
+    "course-info": "./childCpns/course-info/course-info"
+  },
+  "navigationBarTitleText": "智慧东软"
+}

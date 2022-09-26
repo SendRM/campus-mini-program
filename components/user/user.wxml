@@ -1,0 +1,14 @@
+<!--components/user/user.wxml-->
+<view class="user">
+  <block wx:if="{{modifyAvatar.length}}">
+    <image src="{{url+'/'+modifyAvatar}}" class='user-avatar' bind:tap="updateAvatar" />
+  </block>
+  <block wx:else>
+    <image src="{{updateUrl ? url+'/'+updateUrl : avatarUrl}}" class='user-avatar' bind:tap="updateAvatar" />
+  </block>
+
+  <view class='user-name'>
+    <text>{{nickName}}</text>
+    <slot></slot>
+  </view>
+</view>

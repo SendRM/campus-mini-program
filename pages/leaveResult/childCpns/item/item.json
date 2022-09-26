@@ -1,0 +1,9 @@
+{
+  "component": true,
+  "usingComponents": {
+    "flex-row": "/components/flex-row/flex-row",
+    "flex-column": "/components/flex-column/flex-column",
+    "back-home": "/components/back-home/back-home",
+    "application-item":"/components/application-item/application-item"
+  }
+}

@@ -1,0 +1,16 @@
+/* components/user/user.wxss */
+.user {
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+}
+.user-avatar {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.user-name {
+  margin-left: 20rpx;
+  overflow: hidden;
+}

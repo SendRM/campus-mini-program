@@ -1,0 +1,35 @@
+<block wx:for="{{articles}}">
+  <view class="wrap">
+    <view class="user">
+      <user nickName="{{item.author.nickName}}" avatarUrl="{{item.author.avatarUrl}}" data-id="{{item._id}}">
+        <view class="user-info">
+          <text>{{item.createAt}}</text>
+          <text class="belong">来自</text>
+          <text class="college">{{item.author.sno.belongClass.belongMajor.belongCollege.collegeName}}</text>
+        </view>
+      </user>
+      <view class="content" data-id="{{item._id}}" bind:tap="getArticleInfo">
+        <text>{{item.content}}</text>
+        <block wx:if="{{item.relatedPictures.length}}">
+          <block wx:for="{{item.relatedPictures}}" wx:for-item="pic">
+            <view class="user-img">
+              <image class="img" src="{{url}}/{{pic}}" lazy-load />
+            </view>
+          </block>
+        </block>
+      </view>
+      <view class="click">
+        <!-- <block wx:if="{{status}}">
+          <ico url="like choose icon" bind:tap="handleLike" data-id="{{item._id}}" data-delete="{{true}}"></ico>
+        </block> -->
+        <!-- <block wx:else> -->
+        <!-- <ico url="like {{like ? 'choose' : 'default'}} icon" bind:tap="handleLike" data-id="{{item._id}}"></ico> -->
+        <!-- </block> -->
+        <ico url="like {{like ? 'choose' : 'default'}}  icon" catch:tap="handleLike" data-id="{{item._id}}" />
+        <text class="count count-like">{{item.meta.likes}}</text>
+        <ico url="icon comment" bind:tap="getReply" data-id="{{item._id}}" />
+        <text class="count count-comment" bind:tap="getReply" data-id="{{item._id}}">{{item.meta.comments}}</text>
+      </view>
+    </view>
+  </view>
+</block>

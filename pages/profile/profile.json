@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "edit": "./childCpns/edit/edit",
+    "setting": "./childCpns/setting/setting"
+  },
+  "navigationStyle": "custom"
+}

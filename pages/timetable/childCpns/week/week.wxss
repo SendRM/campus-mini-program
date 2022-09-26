@@ -1,0 +1,6 @@
+.week {
+  padding: 60rpx 0 20rpx 0;
+  text-align: center;
+  color: white;
+  background-color: #4681E9;
+}

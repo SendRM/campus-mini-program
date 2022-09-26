@@ -1,0 +1,7 @@
+<back-home />
+<view class="box">
+  <navigator url="/pages/repairCount/repairCount">我的报修</navigator>
+</view>
+<view class="box2">
+  <navigator url="/pages/repair/repair">创建新申请</navigator>
+</view>

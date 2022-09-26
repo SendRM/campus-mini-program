@@ -1,0 +1,10 @@
+/* pages/repair/childCpns/header/header.wxss */
+.header text {
+  margin-bottom: 80rpx;
+  text-align: center;
+}
+.bold {
+  margin: 70rpx 0 40rpx;
+  font-weight: 700;
+  font-size: 46rpx;
+}

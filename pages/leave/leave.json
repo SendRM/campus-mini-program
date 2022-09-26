@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "leave-info": "./childCpns/leave-info/leave-info"
+  },
+  "navigationBarBackgroundColor": "#317EDB",
+  "navigationBarTitleText": "请假流程",
+  "navigationBarTextStyle": "white"
+}

@@ -1,0 +1,26 @@
+/* pages/publishStatus/childCpns/top/top.wxss */
+.top {
+  position: relative;
+  margin-top: 44rpx;
+  padding: 0 10rpx;
+}
+.icon {
+  width: 40rpx;
+  height: 40rpx;
+  top: 36rpx;
+  background-image: url("data:image/svg+xml;charset=utf-8;base64,PHN2ZyB2aWV3Qm94PScwIDAgMTAyNCAxMDI0JyB2ZXJzaW9uPScxLjEnIHhtbG5zPSdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2Zycgd2lkdGg9JzIwMCcgaGVpZ2h0PScyMDAnPjxwYXRoIGQ9J003NzYuOSA5NzcuMmwtNDY1LTQ2NS4xTDc3Ni45IDQ3YzQuOC00LjggNy41LTExLjQgNy41LTE4LjIgMC0yMi45LTI3LjctMzQuNC00My45LTE4LjJMMjM5LjIgNTEyLjFsNTAxLjQgNTAxLjRjMTYuMiAxNi4yIDQzLjkgNC43IDQzLjktMTguMiAwLTYuOC0yLjctMTMuMy03LjYtMTguMXonIGZpbGw9JyM3MDcwNzAnPjwvcGF0aD48L3N2Zz4=");  
+}
+.user {
+  display: flex;
+  margin-top: 10rpx;
+}
+.user-avatar {
+  width: 80rpx;
+  height: 80rpx;
+  margin-right: 330rpx;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.change{
+  margin: 0;
+}

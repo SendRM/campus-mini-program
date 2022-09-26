@@ -1,0 +1,9 @@
+/* pages/complaint/complaint.wxss */
+page {
+  width: 90%;
+  margin: 0 auto;
+}
+.btn {
+  background-color: #317EDB;
+  color: white;
+}

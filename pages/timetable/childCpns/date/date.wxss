@@ -1,0 +1,37 @@
+.bg {
+  background-color: #FAFAFA;
+}
+.top {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid #ccc;
+}
+.top-text {
+  width: 140rpx;
+  height: 100rpx;
+  font-size: 9pt;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.border-r {
+  border-right: 1px solid #ccc;
+}
+.border-r:last-of-type {
+  border: 0;
+}
+.month {
+  width: 64rpx;
+  /* padding: 0 4rpx; */
+  line-height: 100rpx;
+  font-size: 34rpx;
+  color: gray;
+}
+.date {
+  font-size: 26rpx;
+  color: gray;
+}
+.day {
+  font-size: 34rpx;
+}

@@ -1,0 +1,6 @@
+<!--pages/library/childCpns/base/base.wxml-->
+<background />
+<box>
+  <slot name="search"></slot>
+  <slot name="content"></slot>
+</box>

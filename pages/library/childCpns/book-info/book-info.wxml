@@ -1,0 +1,25 @@
+<!--pages/library/childCpns/book-info/book-info.wxml-->
+<scroll-view scroll-y>
+  <view class="wrap">
+    <image src="{{url}}/{{book.bookImg}}" />
+    <flex-column>
+      <text class="name" slot="up">{{book.bookName}}</text>
+      <text class="txt" slot="middle">{{book.author}}</text>
+      <view class="info" slot="down">
+        <text class="txt column">位置：{{book.location}}</text>
+        <text class="txt"> 索书号：{{book.callNumber}}</text>
+      </view>
+      <text class="txt" slot="down">书籍状态：<block wx:if="{{book.bookStatus === '不可借'}}">
+          <text class="status off">{{book.bookStatus}}</text>
+        </block>
+        <block wx:else>
+          <text class="status txt">{{book.bookStatus}}({{book.bookBorrowCount}})</text>
+        </block>
+      </text>
+    </flex-column>
+  </view>
+  <view class="introduction">
+    <text class="name">简介</text>
+    <text class="content" selectable>{{book.briefIntroduction}}</text>
+  </view>
+</scroll-view>

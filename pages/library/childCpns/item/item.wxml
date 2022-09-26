@@ -1,0 +1,13 @@
+<view class="books-item">
+  <flex-column>
+    <view slot="up">
+      <slot name="img"></slot>
+    </view>
+    <text slot="middle" class="book-name">
+      <slot name="book-name"></slot>
+    </text>
+    <text slot="down" class="browser">
+      <slot name="book-info"></slot>
+    </text>
+  </flex-column>
+</view>

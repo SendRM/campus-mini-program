@@ -1,0 +1,9 @@
+<view class="wrap">
+  <flex-row>
+    <!-- <view slot="left" class="type">失物招领</view> -->
+    <hunt slot="center" keyword="搜索内容" bind:getValue="getValue" bind:submitKeyword="submitKeyword" class="search" />
+    <view slot="right">
+      <ico url="more" bind:tap="add" />
+    </view>
+  </flex-row>
+</view>

@@ -1,0 +1,12 @@
+.books-item {
+  margin-top: 14rpx;
+}
+.book-name {
+  display: inline-block;
+  margin-top: 10rpx;
+  font-size: 32rpx;
+}
+.browser {
+  font-size: 26rpx;
+  color: #737373;
+}

@@ -1,0 +1,9 @@
+<!--pages/profile/childCpns/edit/edit.wxml-->
+<background>
+  <user nickname="nick-name" slot="up" nickName="{{nickName}}" avatarUrl="{{avatarUrl}}" modifyAvatar="{{modifyAvatar}}"
+    bind:updateAvatar="updateAvatar" />
+  <view class="edit" slot="down" bind:tap="modifyName">
+    <ico url="ed" />
+    <text>编辑昵称</text>
+  </view>
+</background>

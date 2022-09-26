@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "item": "./childCpns/item/item"
+  },
+  "navigationStyle": "custom"
+}

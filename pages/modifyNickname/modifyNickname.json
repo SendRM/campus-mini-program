@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "flex-row": "/components/flex-row/flex-row"
+  },
+  "navigationBarBackgroundColor": "#317EDB",
+  "navigationBarTitleText": "更改名字",
+  "navigationBarTextStyle": "white"
+}

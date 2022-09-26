@@ -1,0 +1,15 @@
+@import '/assets/wxss/dark.wxss';
+page {
+  background-color: #ECEDEF;
+}
+.user {
+  flex-direction: column!important;
+}
+.user-avatar {
+  width: 200rpx!important;
+  height: 200rpx!important;
+  margin-top: 150rpx;
+}
+.user-name {
+  margin: 20rpx 0!important;
+}

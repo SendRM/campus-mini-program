@@ -1,0 +1,7 @@
+<!--components/input-content/input-content.wxml-->
+<view class="content">
+  <flex-column>
+    <text slot="up">{{content.title}}</text>
+    <textarea placeholder="{{content.con}}" slot="down" data-input="{{content.name}}" bind:input="getValue" bind:blur="checkValue"></textarea>
+  </flex-column>
+</view>

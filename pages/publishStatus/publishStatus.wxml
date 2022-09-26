@@ -1,0 +1,3 @@
+<!--pages/publishStatus/publishStatus.wxml-->
+<top avatarUrl="{{avatarUrl}}" />
+<content bind:submitForm="submitForm" />

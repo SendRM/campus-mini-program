@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "user": "/components/user/user",
+    "background": "/components/background/background"
+  }
+}

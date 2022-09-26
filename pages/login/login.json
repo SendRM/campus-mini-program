@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "logo": "./childCpns/logo/logo",
+    "stu-info": "./childCpns/stu-info/stu-info"
+  }
+}

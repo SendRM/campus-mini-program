@@ -1,0 +1,5 @@
+<view class="{{darkModel && 'dark'}}">
+  <edit nickName="{{nickName}}" avatarUrl="{{avatarUrl}}" updateUrl="{{updateUrl}}" bind:updateAvatar="updateAvatar"
+    class="edit" />
+  <setting info="{{info}}" bind:nightModel="nightModel" darkModel="{{darkModel}}" />
+</view>

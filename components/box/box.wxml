@@ -1,0 +1,3 @@
+<view class="bg {{darkModel && 'dark'}}">
+  <slot></slot>
+</view>

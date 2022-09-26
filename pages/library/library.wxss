@@ -1,0 +1,45 @@
+/* pages/library/library.wxss */
+.bg {
+  height: 1050rpx!important;
+  margin: -230rpx auto !important;
+}
+.search {
+  width: 100%;
+  height: 70rpx;
+  padding-left: 0!important;
+  margin-top: -210rpx;
+  background-color: #F0F0F0!important;
+}
+.search-icon {
+  position: absolute;
+  top: 8rpx!important;
+  left: 140rpx!important;
+}
+.wrap {
+  width: 88%;
+}
+.wrap input {
+  text-align: left;
+  padding-left: 80rpx!important;
+}
+.wrap .search-icon {
+  position: absolute;
+  top: 7rpx!important;
+  left: 10rpx!important;
+}
+.wrap text {
+  float: right;
+  margin: 12rpx -74rpx 0 0;
+  font-size: 34rpx;
+  color: gray;
+}
+.focus-ico {
+  left: 14rpx!important;
+}
+.focus {
+  text-align: left!important;
+  padding-left: 80rpx!important;
+}
+.hidden {
+  display: none;
+}

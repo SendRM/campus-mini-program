@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "back-home": "../../components/back-home/back-home"
+  },
+  "navigationStyle": "custom"
+}

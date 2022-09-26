@@ -1,0 +1,13 @@
+/* pages/modifyNickname/modifyNickname.wxss */
+input {
+  display: inline-block;
+  width: 76%;
+  margin-top: 20rpx;
+  padding-left: 10rpx;
+  border-bottom: 1px solid #ccc;
+}
+.determine {
+  background-color: #317EDB;
+  color: white;
+  font-weight: 400;
+}

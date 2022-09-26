@@ -1,0 +1,31 @@
+<!--pages/library/childCpns/books/books.wxml-->
+<!-- <hunt slot="search" /> -->
+<view class="rank">
+  <flex-row>
+    <text slot="left" class="title">书籍排行</text>
+  </flex-row>
+  <view class="wrap">
+    <block wx:for="{{bookArr.topBooks}}">
+      <item bind:tap="getInfo" data-id="{{item._id}}">
+        <image src="{{url}}/{{item.bookImg}}" mode="aspectFit" slot="img" />
+        <text slot="book-name">{{item.bookName}}</text>
+        <text slot="book-info">共{{item.browsingHistory}}人浏览</text>
+      </item>
+    </block>
+  </view>
+</view>
+
+<view class="rank new-books">
+  <flex-row>
+    <text slot="left" class="title">随机推荐</text>
+  </flex-row>
+  <view class="wrap">
+    <block wx:for="{{bookArr.randomBooks}}">
+      <item bind:tap="getInfo" data-id="{{item._id}}"> 
+        <image src="{{url}}/{{item.bookImg}}" mode="aspectFit" slot="img" />
+        <text slot="book-name">{{item.bookName}}</text>
+        <text slot="book-info">{{item.bookType}}</text>
+      </item>
+    </block>
+  </view>
+</view>

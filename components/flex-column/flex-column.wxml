@@ -1,0 +1,6 @@
+<!--components/flex-column/flex-column.wxml-->
+<view class="column">
+  <slot name="up"></slot>
+  <slot name="middle"></slot>
+  <slot name="down"></slot>
+</view>

@@ -1,0 +1,18 @@
+page {
+  width: 90%;
+  margin: 260rpx auto;
+}
+.box,
+.box2 {
+  height: 300rpx;
+  margin-top: 60rpx;
+  background-color: #FFBD27;
+  text-align: center;
+  line-height: 300rpx;
+  font-size: 50rpx;
+  color: white;
+  font-weight: 700;
+}
+.box2 {
+  background-color: green;
+}

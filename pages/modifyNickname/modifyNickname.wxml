@@ -1,0 +1,5 @@
+<!--pages/modifyNickname/modifyNickname.wxml-->
+<flex-row>
+  <input slot="left" bind:input="getValue" value="{{nickName}}"></input>
+  <button slot="right" size="mini" class="determine" bind:tap="submitName">确定</button>
+</flex-row>

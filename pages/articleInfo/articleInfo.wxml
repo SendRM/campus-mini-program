@@ -1,0 +1,39 @@
+<view class="surface">
+  <user nickName="{{article.author.nickName}}" avatarUrl="{{article.author.avatarUrl}}">
+    <view class="user-info">
+      <text>{{article.createAt}}</text>
+      <text class="belong">来自</text>
+      <text class="college">{{article.author.sno.belongClass.belongMajor.belongCollege.collegeName}}</text>
+    </view>
+  </user>
+  <view class="content" data-id="{{item._id}}" bind:tap="getArticleInfo">
+    <text>{{article.content}}</text>
+    <block wx:if="{{article.relatedPictures.length}}">
+      <block wx:for="{{article.relatedPictures}}" wx:for-item="pic">
+        <view class="user-img">
+          <image class="img" src="{{url}}/{{pic}}" lazy-load />
+        </view>
+      </block>
+    </block>
+  </view>
+  <block wx:if="{{comments.length}}">
+    <block wx:for="{{comments}}">
+      <view class="wrap">
+        <user nickName="{{item.author.nickName}}" avatarUrl="{{item.author.avatarUrl}}" />
+        <view class="info">
+          <text class="commemt">{{item.content}}</text>
+          <view class="date">{{item.createAt}}</view>
+        </view>
+      </view>
+    </block>
+  </block>
+  <block wx:else>
+    <text class="none">暂时还没有人评论</text>
+  </block>
+  <view class="release">
+    <textarea class="text" placeholder-class="releaseInput" fixed maxlength="120" show-confirm-bar="{{false}}"
+      cursor-spacing="15" auto-height focus="{{focus}}" value="{{content}}" placeholder="评论"
+      bind:input="contentInput"></textarea>
+    <view class="submit" bind:tap="sendComment">发送</view>
+  </view>
+</view>

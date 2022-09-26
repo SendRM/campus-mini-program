@@ -1,0 +1,9 @@
+/* components/input-item/input-item.wxss */
+.item {
+  height: 110rpx;
+  line-height: 80rpx;
+  border-top: 1px solid #ddd;
+}
+.item input {
+  margin-top: 20rpx;
+}

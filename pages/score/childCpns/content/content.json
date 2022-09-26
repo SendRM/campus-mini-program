@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "background": "/components/background/background",
+    "flex-row": "/components/flex-row/flex-row"
+  }
+}

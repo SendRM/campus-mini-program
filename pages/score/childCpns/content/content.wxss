@@ -1,0 +1,28 @@
+page {
+  background-color: #F5F5F5;
+}
+.wrap {
+  width: 94%;
+  margin: 20rpx auto;
+  padding: 0 10rpx;
+  background-color: white;
+}
+.semester {
+  padding: 20rpx 0;
+  text-align: center;
+}
+.item {
+  padding: 14rpx 0;
+  border-top: 1px solid #ccc;
+}
+.left {
+  width: 360rpx;
+}
+.right {
+  margin-top: 6rpx;
+  font-size: 32rpx;
+  color: gray;
+}
+.score {
+  color: #317EDB;
+}

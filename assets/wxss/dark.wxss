@@ -1,0 +1,16 @@
+.dark {
+  padding-bottom: 238rpx;
+  background-color: #111!important;
+  color: #999!important; 
+  border-top: 1px solid #333!important;
+  border-bottom: 1px solid #333!important;
+}
+.dark view[class*="top"] {
+  background-image: none!important;
+}
+.dark view[class*="box"] {
+  background-color: #141726!important;
+}
+.dark button {
+  background-color: #141726!important;
+}

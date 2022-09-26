@@ -1,0 +1,7 @@
+<view class="center">
+  <input type="text" class="search focus" placeholder="{{keyword}}" bind:input="getValue" bind:confirm="submitKeyword"
+    bind:blur="getBlur" />
+  <view class="search-icon focus-ico">
+    <ico url="search-ico" />
+  </view>
+</view>

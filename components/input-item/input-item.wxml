@@ -1,0 +1,9 @@
+<!--components/input-item/input-item.wxml-->
+<block wx:for="{{info}}" wx:key="index">
+  <view class="item cover">
+    <flex-row>
+      <text slot="left">{{item.type}}</text>
+      <input slot="right" placeholder="{{item.tips}}" bind:input="getValue" data-input="{{item.name}}" bind:blur="checkValue"></input>
+    </flex-row>
+  </view>
+</block>

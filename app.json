@@ -1,0 +1,56 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/index/index",
+    "pages/publishStatus/publishStatus",
+    "pages/find/find",
+    "pages/profile/profile",
+    "pages/timetable/timetable",
+    "pages/score/score",
+    "pages/modifyNickname/modifyNickname",
+    "pages/library/library",
+    "pages/complaintResult/complaintResult",
+    "pages/repairResult/repairResult",
+    "pages/complaint/complaint",
+    "pages/leaveResult/leaveResult",
+    "pages/repairCount/repairCount",
+    "pages/repair/repair",
+    "pages/leave/leave",
+    "pages/articleInfo/articleInfo",
+    "pages/article/article"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "selectedColor": "#2976E4",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/assets/tabbar/index.png",
+        "selectedIconPath": "/assets/tabbar/index_active.png"
+      },
+      {
+        "pagePath": "pages/find/find",
+        "text": "圈子",
+        "iconPath": "/assets/tabbar/find.png",
+        "selectedIconPath": "/assets/tabbar/find_active.png"
+      },
+      {
+        "pagePath": "pages/profile/profile",
+        "text": "我的",
+        "iconPath": "/assets/tabbar/profile.png",
+        "selectedIconPath": "/assets/tabbar/profile_active.png"
+      }
+    ]
+  },
+  "usingComponents": {
+    "ico": "/components/ico/ico"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

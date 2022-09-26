@@ -1,0 +1,13 @@
+<!--pages/index/childCpns/course-info/course-info.wxml-->
+<view class="w">
+  <view class="header">
+    <text class="date">2022/9/26</text>
+    <text class="week">周一课表</text>
+    <text class="count">今天共0门课程</text>
+  </view>
+  <view class="info">
+  <!-- <text class="time">14:30</text> -->
+    <text class="course">今天暂时没有课哦~</text>
+    <!-- <text class="count">F403</text> -->
+  </view>
+</view>

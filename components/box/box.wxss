@@ -1,0 +1,11 @@
+@import '/assets/wxss/dark.wxss';
+
+.bg {
+  width: 640rpx;
+  height: 900rpx;
+  margin: -170rpx auto;
+  padding: 260rpx 20rpx 0;
+  background-color: #F8F8F8;
+  border-radius: 20rpx;
+  box-shadow: -1rpx 0 20rpx rgba(0,0,0,.2);
+}

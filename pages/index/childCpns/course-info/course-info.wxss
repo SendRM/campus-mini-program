@@ -1,0 +1,43 @@
+/* pages/index/childCpns/course-info/course-info.wxss */
+.w {
+  width: 700rpx;
+  margin: 0 auto;
+}
+
+.header {
+  padding-top: 25rpx;
+  text-align: center;
+}
+
+.header text {
+  color: #ADADA7;
+  font-size: 32rpx;
+}
+
+.header .week {
+  padding: 0 45rpx;
+  color: black;
+  font-weight: 700;
+  font-size: 40rpx;
+}
+
+.info {
+  margin-top: 40rpx;
+  padding: 20rpx;
+  color: white;
+  background-color: #4D90F7;
+  border-radius: 25rpx;
+}
+
+.info text {
+  font-size: 32rpx;
+}
+
+.info .course {
+  margin: 0 164rpx;
+  text-align: center;
+}
+
+.info .count {
+  text-align: right;
+}

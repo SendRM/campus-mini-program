@@ -1,0 +1,9 @@
+/* pages/repair/childCpns/content/content.wxss */
+.btn {
+  width: 200rpx;
+  display: block;
+  font-weight: 400;
+  color: white;
+  background-color: #317EDB;
+  margin: 40rpx 260rpx;
+}

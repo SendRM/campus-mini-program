@@ -1,0 +1,10 @@
+<!--pages/publishStatus/childCpns/top/top.wxml-->
+<view class="top">
+  <flex-row change="change">
+    <ico slot="left" url="icon" bind:tap="back" />
+    <view class="user" slot="center">
+        <image class='user-avatar' wx:if="{{avatar.length}}" src="{{avatar}}" /> 
+        <image class='user-avatar' wx:else src="{{url+'/'+avatarUrl}}" />
+    </view>
+  </flex-row>
+</view>

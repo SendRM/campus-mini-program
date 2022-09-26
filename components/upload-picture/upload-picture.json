@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "flex-column": "/components/flex-column/flex-column",
+    "flex-row": "/components/flex-row/flex-row"
+  }
+}

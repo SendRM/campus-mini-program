@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "dynamic": "./childCpns/dynamic/dynamic",
+    "search": "./childCpns/search/search",
+    "comment": "./childCpns/comment/comment"
+  },
+  "enablePullDownRefresh": true
+}

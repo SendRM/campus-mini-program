@@ -1,0 +1,27 @@
+<view class="item">
+  <flex-row>
+    <view slot="left">
+      <flex-column>
+        <text slot="middle" class="middle">
+          <slot name="one"></slot>
+        </text>
+        <text slot="middle" class="middle">
+          <slot name="two"></slot>
+        </text>
+        <text slot="middle" class="middle">
+          <slot name="three"></slot>
+        </text>
+        <text slot="middle" class="middle">
+          <slot name="four"></slot>
+        </text>
+        <text slot="middle" class="middle">
+          <slot name="five"></slot>
+        </text>
+        <view slot="middle" class="middle">
+          <slot name="six"></slot>
+        </view>
+        <text slot="down" class="result">等待审批</text>
+      </flex-column>
+    </view>
+  </flex-row>
+</view>

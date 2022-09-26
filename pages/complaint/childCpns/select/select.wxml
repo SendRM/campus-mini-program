@@ -1,0 +1,22 @@
+<!--pages/complaint/childCpns/select/select.wxml-->
+<block wx:for="{{complaint}}" wx:key="index">
+  <view class="item">
+    <text class="type">{{item.type}}</text>
+    <block wx:if="{{index === 0}}">
+      <picker range="{{complaintReasons.complaintType}}" value="{{i}}" bind:change="bindPickerChange"
+        data-picker="complaintType">
+        <view class="picker">
+          {{item.tips}}{{i}}
+        </view>
+      </picker>
+    </block>
+    <block wx:else>
+      <picker range="{{complaintReasons.complaintCanteen}}" value="{{i}}" bind:change="bindPickerChange"
+        data-picker="complaintCanteen">
+        <view class="picker">
+          {{item.tips}}{{i}}
+        </view>
+      </picker>
+    </block>
+  </view>
+</block>

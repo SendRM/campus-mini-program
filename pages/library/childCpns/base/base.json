@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "background": "/components/background/background",
+    "box": "/components/box/box"
+  }
+}

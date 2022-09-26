@@ -1,0 +1,29 @@
+<view class="wrap">
+  <view class="semester">
+    <text>2020-2021学年 第2学期</text>
+  </view>
+  <view class="item">
+    <flex-row>
+      <view slot="left" class="left">
+        <text>大学生成长辅导</text>
+      </view>
+      <text slot="right" class="right">综合成绩：<text class="score">优秀</text></text>
+    </flex-row>
+  </view>
+  <view class="item">
+    <flex-row>
+      <view slot="left" class="left">
+        <text>大学生成长辅导</text>
+      </view>
+      <text slot="right" class="right">综合成绩：<text class="score">优秀</text></text>
+    </flex-row>
+  </view>
+  <view class="item">
+    <flex-row>
+      <view slot="left" class="left">
+        <text>大学生成长辅导</text>
+      </view>
+      <text slot="right" class="right">综合成绩：<text class="score">优秀</text></text>
+    </flex-row>
+  </view>
+</view>

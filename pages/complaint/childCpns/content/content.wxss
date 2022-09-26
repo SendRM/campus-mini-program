@@ -1,0 +1,8 @@
+/* pages/complaint/childCpns/content/content.wxss */
+.cover {
+  border-top: 0!important;
+  margin-left: -16rpx;
+}
+.left {
+  margin: 0 0 30rpx -16rpx;
+}

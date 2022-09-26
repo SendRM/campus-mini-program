@@ -1,0 +1,13 @@
+scroll-view {
+  height: 900rpx;
+}
+.name {
+  font-weight: 700;
+}
+.txt {
+  font-size: 30rpx;
+  color: gray;
+}
+.status {
+  color: #1F86F7;
+}

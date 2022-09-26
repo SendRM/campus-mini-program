@@ -1,0 +1,57 @@
+<view class="title"><text>学生请假申请</text></view>
+<view class="content">
+  <view class="item">
+    <text class="left">申请时间</text><text class="right">{{applicationTime}}</text>
+  </view>
+  <view class="item">
+    <text class="left">申请人</text><text class="right">{{student.applicant}}({{student.sno}})</text>
+  </view>
+  <view class="item">
+    <text class="left">联系电话</text><input class="right" type="number" bind:input="getValue" bind:blur="checkValue"
+      data-input="contactNumber" />
+  </view>
+  <view class="item">
+    <text class="left">所在学院</text><text class="right">{{student.college}}</text>
+  </view>
+  <view class="item">
+    <text class="left">所在专业</text><text class="right">{{student.major}}</text>
+  </view>
+  <view class="item">
+    <text class="left">年级</text><text class="right">{{student.grade}}</text>
+  </view>
+  <view class="item">
+    <text class="left">所在班级</text><text class="right">{{student.class}}</text>
+  </view>
+  <view class="item">
+    <text class="left">相关图片</text>
+    <block wx:if="{{imagesCount === 0}}"><text class="right pic" bind:tap="getPic">上传图片</text></block>
+    <block wx:else><text class="right">已上传{{imagesCount}}张图片</text></block>
+  </view>
+  <view class="item">
+    <text class="left">开始时间</text>
+    <view class="right fz">
+      <date-select data-time="startTime" bind:pickerChange="pickerChange" />
+    </view>
+  </view>
+  <view class="item">
+    <text class="left">结束时间</text>
+    <view class="right fz">
+      <date-select data-time="endTime" bind:pickerChange="pickerChange" />
+    </view>
+  </view>
+  <view class="item">
+    <text class="left">请假天数</text><input class="right day" type="digit" bind:input="getValue" data-input="leaveDays"
+      bind:blur="checkValue" />天(输入数字,半天的输入0.5)
+  </view>
+  <view class="item">
+    <text class="left">请假类型</text><input class="right" placeholder="事假/病假" bind:input="getValue" data-input="leaveType"
+      bind:blur="checkValue" />
+  </view>
+  <view class="item">
+    <text class="left wh">请假原因</text>
+    <view class="right">
+      <textarea bind:input="getValue" data-input="leaveReason" bind:blur="checkValue"></textarea>
+    </view>
+  </view>
+</view>
+<button class="btn" bind:tap="submitForm">提交</button>

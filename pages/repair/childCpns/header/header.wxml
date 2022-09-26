@@ -1,0 +1,7 @@
+<!--pages/repair/childCpns/header/header.wxml-->
+<view class="header">
+  <flex-column>
+    <text slot="up" class="bold">故障报修</text>
+    <text slot="down">后勤报修</text>
+  </flex-column>
+</view> 

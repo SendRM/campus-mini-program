@@ -1,0 +1,23 @@
+/* pages/library/childCpns/books/books.wxss */
+.rank {
+  position: relative;
+  margin: 0 -20rpx;
+  padding-top: 24rpx;
+}
+.new-books {
+  padding-top: 10rpx;
+}
+.title {
+  font-weight: 700;
+  color: #313131;
+}
+ image {
+  width: 190rpx;
+  height: 240rpx;
+  margin-left: -7rpx;
+}
+.wrap {
+  display: flex;
+  justify-content: space-between;
+  margin: 16rpx 25rpx;
+}

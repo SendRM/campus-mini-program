@@ -1,0 +1,12 @@
+.logo {
+  width: 17vh;
+  height: 17vh;
+}
+.name {
+  margin-top: 30rpx;
+  text-align: center;
+}
+.name image {
+  width: 400rpx;
+  height: 105rpx;
+}

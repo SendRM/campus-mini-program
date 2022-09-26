@@ -1,0 +1,29 @@
+<scroll-view scroll-y>
+  <block wx:if="{{searchArr.length === 0}}">
+    <text>无搜索结果</text>
+  </block>
+  <block wx:else>
+    <block wx:for="{{searchArr}}">
+      <view class="books-result" bind:tap="getInfo" data-id="{{item._id}}">
+        <image src="{{url}}/{{item.bookImg}}" mode="aspectFit" class="book" />
+        <view class="wrap">
+          <view class="title">
+            <text class="name">{{item.bookName}}</text>
+            <text class="txt">{{item.author}}</text>
+          </view>
+          <view class="info">
+            <text class="txt">书籍状态：<block wx:if="{{item.bookStatus === '不可借'}}">
+                <text class="status off">{{item.bookStatus}}</text>
+              </block>
+              <block wx:else>
+                <text class="status txt">{{item.bookStatus}}({{item.bookBorrowCount}})</text>
+              </block>
+            </text>
+            <text class="txt">索书号：{{item.callNumber}}</text>
+            <text class="txt">位置：{{item.location}}</text>
+          </view>
+        </view>
+      </view>
+    </block>
+  </block>
+</scroll-view>

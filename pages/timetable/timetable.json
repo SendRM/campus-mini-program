@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "flex-row": "/components/flex-row/flex-row",
+    "back-home": "/components/back-home/back-home",
+    "week":"./childCpns/week/week",
+    "date":"./childCpns/date/date"
+  },
+  "navigationStyle": "custom"
+}

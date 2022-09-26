@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "content": "./childCpns/content/content"
+  },
+  "navigationBarBackgroundColor": "#317EDB",
+  "navigationBarTitleText": "成绩查询",
+  "navigationBarTextStyle": "white"
+}

@@ -1,0 +1,4 @@
+<search bind:submitKeyword="submitKeyword" />
+<dynamic articles="{{articles}}" bind:getArticleInfo="getArticleInfo" bind:handleLike="handleLike"
+  bind:sendComment="sendComment" />
+<!-- <comment /> -->

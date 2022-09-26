@@ -1,0 +1,6 @@
+<!--pages/complaint/childCpns/content/content.wxml-->
+<input-item info="{{info}}" cover="cover" bind:getValue="getValue" inputInfo="{{inputInfo}}" />
+<view class="left">
+  <input-content content="{{content}}" bind:getTextareaValue="getValue" />
+  <upload-picture bind:getImages="getValue" />
+</view>

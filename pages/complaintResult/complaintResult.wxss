@@ -1,0 +1,19 @@
+.user-img {
+  display: flex;
+  width: 100%;
+  margin: 20rpx 0;
+}
+.user-img image {
+  width: 200rpx;
+  height: 220rpx;
+  margin-right: 20rpx;
+}
+.btn {
+  position: fixed;
+  background-color: #317EDB;
+  left: 33%;
+  bottom: 50rpx;
+  padding: 16rpx;
+  color: white;
+  border-radius: 16rpx;
+}

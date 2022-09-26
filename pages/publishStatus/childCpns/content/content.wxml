@@ -1,0 +1,15 @@
+<!--pages/publishStatus/childCpns/content/content.wxml-->
+<textarea placeholder="说点什么吧.." bind:input="getContent"></textarea>
+<view class="tool">
+  <block wx:if="{{chooseImg}}">
+    <upload-picture bind:getImages="getImages" />
+  </block>
+  <ico url="icon" bind:tap="chooseImg" />
+  <text class="send" bind:tap="submitForm">发送</text>
+  <view class="wrap">
+    <block wx:for="{{type}}">
+      <text data-index="{{index}}" class="type {{item.touch}} {{item.disable}}"
+        bind:tap="typeClick">{{item.name}}</text>
+    </block>
+  </view>
+</view>

@@ -1,0 +1,7 @@
+<view class="week">
+  <picker bindchange="bindPickerChange" value="{{index}}" range="{{week}}">
+    <view class="picker">
+      第{{currentWeek}}周
+    </view>
+  </picker>
+</view>

@@ -1,0 +1,10 @@
+<view class="con">
+    <block wx:for="{{thing}}" wx:key="index">
+      <view class="item">
+        <navigator url="{{item.url}}">
+         <ico url="thing-icon thing-icon{{index}}"></ico>
+         <text class="t">{{item.text}}</text>
+        </navigator>
+      </view>
+    </block>
+</view>

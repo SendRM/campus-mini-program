@@ -1,0 +1,4 @@
+<!--pages/complaint/complaint.wxml-->
+<select bind:pickerChange="getValue" />
+<content bind:getValue="getValue" />
+<button class="btn" bind:tap="submit">提交投诉</button>

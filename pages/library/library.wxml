@@ -1,0 +1,24 @@
+<back-home />
+<base>
+<!-- 首页 -->
+<block wx:if="{{index}}">
+  <hunt slot="search" focus="{{focus}}" focus-ico="{{focusIco}} {{hidden}}" bind:getValue="getValue"
+    bind:submitKeyword="submitKeyword" bind:getBlur="getBlur" keyword="搜索书名/作者" />
+  <books slot="content" bookArr="{{bookArr}}" bind:getInfo="getInfo" />
+</block>
+<block wx:if="{{search || bookInfo}}">
+  <view class="wrap" slot="search">
+    <text bind:tap="returnIndex">取消</text>
+    <hunt slot="search" focus="{{focus}}" focus-ico="{{focusIco}} {{hidden}}" bind:getValue="getValue"
+      bind:submitKeyword="submitKeyword" bind:getBlur="getBlur" keyword="搜索书名/作者" />
+  </view>
+</block>
+<!-- 书籍搜索结果 -->
+<block wx:if="{{search}}">
+  <search-result slot="content" searchArr="{{searchArr}}" bind:getInfo="getInfo" />
+</block>
+<!-- 详情 -->
+<block wx:if="{{bookInfo}}">
+  <book-info slot="search" book="{{book}}" />
+</block>
+</base>

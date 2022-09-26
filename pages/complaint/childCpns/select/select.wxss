@@ -1,0 +1,9 @@
+/* pages/complaint/childCpns/select/select.wxss */
+.item {
+  display: flex;
+  padding: 40rpx 0;
+  border-bottom: 1px solid #ccc;
+}
+.type {
+  padding-right: 100rpx;
+}

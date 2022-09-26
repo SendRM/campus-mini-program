@@ -1,0 +1,4 @@
+.login {
+  margin: 40rpx 30rpx 0;
+  text-align: center;
+}

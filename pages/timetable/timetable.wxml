@@ -1,0 +1,16 @@
+<back-home change="change" />
+<week bind:pickerChange="pickerChange" currentWeek="{{currentWeek}}" />
+<date dateArr="{{dateArr}}" />
+<flex-row>
+  <view slot="left" class="le">
+    <view wx:for="{{[1,2,3,4,5,6,7,8,9,10]}}" class="left bg border-r">
+      {{item}}
+    </view>
+  </view>
+  <view wx:for="{{wlist}}" slot="right">
+    <view class="flex-item kcb-item"
+      style="left:{{left[item.week - 1]}}rpx;top:{{top[item.class - 1]}}rpx;background-color:{{colorArrays[index%9]}}">
+      <view class="smalltext">{{item.course}}</view>
+    </view>
+  </view>
+</flex-row>

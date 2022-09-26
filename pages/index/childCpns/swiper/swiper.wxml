@@ -1,0 +1,14 @@
+<!--pages/index/childCpns/swiper/swiper.wxml-->
+<swiper circular
+        autoplay
+        interval='3000'
+        duration='300'
+        indicator-dots
+        indicator-active-color='#AAC9F0'>
+  <swiper-item>
+    <image src="/assets/campus/scrollPicture3.jpg" mode="widthFix" />
+  </swiper-item>
+  <swiper-item>
+    <image src="/assets/campus/scrollPicture4.jpg" mode="widthFix" />
+  </swiper-item>
+</swiper>

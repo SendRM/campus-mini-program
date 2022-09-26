@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "top": "./childCpns/top/top",
+    "content": "./childCpns/content/content"
+  },
+  "navigationStyle": "custom"
+}

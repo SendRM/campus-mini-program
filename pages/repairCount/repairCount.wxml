@@ -1,0 +1,16 @@
+<block wx:for="{{repairs}}">
+  <application-item>
+    <text slot="one" class="middle">姓名：{{item.contactName}}</text>
+    <text slot="two" class="middle">报修地点：{{item.location}}</text>
+    <text slot="three" class="middle">报修房间：{{item.repairRoom}}</text>
+    <text slot="four" class="middle">预约时间：{{item.appointmentTime}}</text>
+    <text slot="five" class="middle">报修原因：{{item.repairContent}}</text>
+    <block wx:if="{{item.relatedPicture.length > 0}}">
+      <view class="user-img" slot="five" slot="six">
+        <block wx:for="{{item.relatedPicture}}" wx:for-item="path">
+          <image class="" src="{{url}}/{{path}}" />
+        </block>
+      </view>
+    </block>
+  </application-item>
+</block>

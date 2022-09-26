@@ -1,0 +1,12 @@
+@import '/assets/wxss/dark.wxss';
+.top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 420rpx;
+  background-image: linear-gradient(to top, #E5F1FF 0%, #0077FF 100%);
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+}

@@ -1,0 +1,26 @@
+<view class="picture">
+  <flex-column>
+    <view slot="up">
+      <flex-row>
+        <text slot="left">相关图片(选填)</text>
+        <text slot="right">({{images.length}}/3)</text>
+      </flex-row>
+    </view>
+    <view slot="down">
+      <view wx:if="{{images.length < 4}}">
+        <flex-row change="change">
+          <block wx:for="{{images}}" wx:key="index">
+            <view class="upload add" slot="left">
+              <image class="upload" src="{{item}}" mode="aspectFill" data-idx="{{index}}"
+                bindtap="handleImagePreview" />
+              <ico url="close" bindtap="removeImage" data-idx="{{index}}" />
+            </view>
+          </block>
+          <view slot="right" class="upload" bindtap="chooseImage">
+            <ico url="icon" />
+          </view>
+        </flex-row>
+      </view>
+    </view>
+  </flex-column>
+</view>

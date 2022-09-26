@@ -1,0 +1,4 @@
+<view class="change">
+  <ico url="index" bind:tap="backHome" />
+
+</view>

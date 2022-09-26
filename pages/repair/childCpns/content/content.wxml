@@ -1,0 +1,5 @@
+<!--pages/repair/childCpns/content/content.wxml-->
+<input-item info="{{info}}" inputInfo="{{inputInfo}}" bind:getValue="getValue" />
+<input-content content="{{content}}" textareaContent="{{textareaContent}}" bind:getTextareaValue="getTextareaValue" />
+<upload-picture bind:getImages="getImages" />
+<button size="mini" class="btn" bind:tap="submitForm">提交</button>

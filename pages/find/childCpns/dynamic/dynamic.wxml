@@ -1,0 +1,39 @@
+<block wx:for="{{articles}}">
+  <view class="user">
+    <user nickName="{{item.author.nickName}}" avatarUrl="{{item.author.avatarUrl}}" data-id="{{item._id}}">
+      <view class="user-info">
+        <text>{{item.createAt}}</text>
+        <text class="belong">来自</text>
+        <text class="college">{{item.author.sno.belongClass.belongMajor.belongCollege.collegeName}}</text>
+      </view>
+    </user>
+    <view class="content" data-id="{{item._id}}" bind:tap="getArticleInfo">
+      <text>{{item.content}}</text>
+      <block wx:if="{{item.relatedPictures.length}}">
+        <block wx:for="{{item.relatedPictures}}" wx:for-item="pic">
+          <view class="user-img">
+            <image class="img" src="{{url}}/{{pic}}" lazy-load />
+          </view>
+        </block>
+      </block>
+    </view>
+    <view class="click">
+      <ico url="like default icon" catch:tap="handleLike" data-id="{{item._id}}" data-like="{{!like}}" />
+      <block wx:for="{{storageLikes}}" wx:for-item="likes">
+        <block wx:if="{{likes.id === item._id && likes.like === true}}">
+          <ico url="like choose icon" catch:tap="handleLike" data-id="{{item._id}}" data-like="{{!like}}" />
+        </block>
+      </block>
+      <text class="count count-like">{{item.meta.likes}}</text>
+      <ico url="icon comment" bind:tap="getReply" data-id="{{item._id}}" />
+      <text class="count count-comment" bind:tap="getReply" data-id="{{item._id}}">{{item.meta.comments}}</text>
+    </view>
+  </view>
+  <block wx:if="{{focus}}">
+    <view class="release">
+      <textarea class="text" placeholder-class="releaseInput" fixed maxlength="120" show-confirm-bar="{{false}}"
+        cursor-spacing="15" auto-height focus="{{focus}}" placeholder="评论" bind:input="contentInput"></textarea>
+      <view class="submit" bind:tap="sendComment">发送</view>
+    </view>
+  </block>
+</block>
